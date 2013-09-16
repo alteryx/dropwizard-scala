@@ -5,7 +5,7 @@
     <artifactId>dropwizard-scala_2.9.3</artifactId>
     <packaging>jar</packaging>
     <description>dropwizard-scala</description>
-    <version>0.6.2-1</version>
+    <version>0.6.2-2-SNAPSHOT</version>
     <name>dropwizard-scala</name>
     <organization>
         <name>com.clearstorydata</name>
@@ -66,18 +66,6 @@
             <artifactId>java-statsd-client</artifactId>
             <version>2.0.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.scalatest</groupId>
-            <artifactId>scalatest_2.9.3</artifactId>
-            <version>2.0.M5b</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>1.9.5</version>
-            <scope>test</scope>
-        </dependency>
 
         <!-- Testing -->
         <dependency>
@@ -86,7 +74,36 @@
           <version>2.0.M5b</version>
           <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>1.9.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.11</version>
+          <scope>test</scope>
+        </dependency>
+        <dependency>
+          <groupId>com.sun.jersey.jersey-test-framework</groupId>
+          <artifactId>jersey-test-framework-core</artifactId>
+          <version>1.17.1</version>
+          <scope>test</scope>
+        </dependency>
+        <dependency>
+          <groupId>com.sun.jersey.jersey-test-framework</groupId>
+          <artifactId>jersey-test-framework-inmemory</artifactId>
+          <version>1.17.1</version>
+          <scope>test</scope>
+        </dependency>
+        <dependency>
+          <groupId>com.sun.jersey</groupId>
+          <artifactId>jersey-client</artifactId>
+          <version>1.17.1</version>
+          <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
