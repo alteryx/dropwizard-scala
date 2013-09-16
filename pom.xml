@@ -21,6 +21,7 @@
     <scm>
         <url>git@github.com:clearstorydata/dropwizard-scala.git</url>
         <connection>scm:git:git@github.com:clearstorydata/dropwizard-scala.git</connection>
+        <developerConnection>scm:git:git@github.com:clearstorydata/dropwizard-scala.git</developerConnection>
     </scm>
     <developers>
         <developer>
