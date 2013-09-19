@@ -181,7 +181,7 @@
         <version>1.0-M2</version>
         <configuration>
           <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
-          <junitxml>.</junitxml>
+          <junitxml>${project.build.directory}</junitxml>
           <filereports>${project.build.directory}/DropwizardScalaTestSuite.txt</filereports>
           <stderr />
         </configuration>
